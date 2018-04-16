@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif; 
+    background-color: #fafafa;
+}
+
+#title {
+    height: 2rem;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: blue;
+}
+
+.home_page {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-image: url("poster.jpg");
+    background-repeat: repeat;
+       
+}
+
+.list_video_1 {
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.list_video_1.video_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: "320";
+    height: "180"; 
+    background-color: #F5F5F5;
+    background-image: url("img/Flying-Birds");
+}
+
+.list_video_1.video_2 {
+    width: "320";
+    height: "180"; 
+    
+}
+
+.list_video_1.video_3 {
+    width: "320";
+    height: "180";  
+   
+}
+
+.list_video_1.video_4 {
+    width: "320";
+    height: "180"; 
+}
+
+.list_video_1.video_5 {
+    width: "320";
+    height: "180";  
+}
+
+.list_video_2 {
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: flex;
+}
+
+.list_video_2.video_1 {
+    width: "320";
+    height: "180"; 
+}
+
+.list_video_2.video_2 {
+    width: "320";
+    height: "180"; 
+}
+
+.list_video_2.video_3 {
+    width: "320";
+    height: "180";  
+}
+
+.list_video_2.video_4 {
+    width: "320";
+    height: "180";  
+}
+
+.list_video_2.video_5 {
+    width: "320";
+    height: "180"; 
+}

@@ -1,0 +1,57 @@
+html {
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif; 
+    background-color: #fafafa;
+}
+
+#title {
+    height: 2rem;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: blue;
+}
+
+.home_page {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    
+}
+
+.list_video_1 {
+    font-size: em;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list_video_1 .img_video_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: "320";
+    height: "180"; 
+}
+
+.img_video_1 {
+    margin: em;
+    font-size: rem;
+    background-image: url("img/Flying-Birds");
+}
+
+.img_video_title {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.img_video_source {
+    font-size: 1.7rem;
+}
