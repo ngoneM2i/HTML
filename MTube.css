@@ -1,0 +1,12 @@
+body{
+    background:url("img/peppa.jpeg") fixed no-repeat left,
+               url("img/bob.jpeg") fixed no-repeat bottom center,
+               url("img/machaEtmichka.jpeg") fixed no-repeat bottom right,
+               url("img/bugsBunny.jpeg") fixed no-repeat bottom left,
+               url("img/peppaPig.jpeg") fixed no-repeat center,
+               url("img/cendrion.jpeg") fixed no-repeat center right;
+               background-position: 100px 100p;
+
+}
+               
+
