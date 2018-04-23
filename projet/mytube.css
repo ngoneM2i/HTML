@@ -2,27 +2,54 @@
 *************************************************************/
 html{
     background-image: url(img/back.jpeg);
-    background-size: cover;
+    /* background-size: cover; */
     background-color: gray;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    /* font-size: 10px;
+    font-family: Roboto, Arial, sans-serif; */
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    display:inline-flex;
     }
+
+    /* html {
+        font-size: 10px;
+        font-family: Roboto, Arial, sans-serif;
+        background-color: #fafafa;
+        display:inline-flex;
+    } */
+        
     /*
     *************************************************************/
     .entete{
-        background-color: rgb(241, 229, 229);
+        background-color: violet;
+        display: block;
+        flex-direction: row;
+        
         /* width: 100%; */
         /* opacity: 1; */
         /* padding-top: 50px; */
         /* position: fixed; */
         }
 
+    .contener{  
+            display: inline-flex;
+            /* justify-content: center; */
+            position: relative;
+            vertical-align: middle;
+            flex-direction: row;
+            /* justify-content: space-between; */
+    }
        
     .titre_entete{  
         display: inline-flex;
         justify-content: center;
         position: relative;
         vertical-align: middle;
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: space-between;
         /* background-color: white;
         color: black;
