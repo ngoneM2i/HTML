@@ -2,18 +2,100 @@
 *************************************************************/
 html{
     background-image: url(img/back.jpeg);
-    /* background-size: cover; */
+    background-size: cover; 
     background-color: gray;
-    /* background-attachment: fixed; */
-    /* font-size: 10px;
-    font-family: Roboto, Arial, sans-serif; */
+    background-attachment: fixed; 
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif; 
     justify-content: center;
     position: relative;
     vertical-align: middle;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse;
     justify-content: space-between;
-    display:inline-flex;
+    display:inline-flex;  */
     }
+    .contener{  
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        vertical-align: middle;
+        flex-direction: row;
+        justify-content: center;
+        /* justify-content: space-between; */
+    }
+   
+
+    .titlebar {
+        background-color: rebeccapurple;
+        display: block;
+        flex-direction: row;
+        width: 100%; 
+        opacity: 0.5; 
+        padding-top: 50px; 
+        position: fixed;      
+    }
+
+
+.genre {
+    background-color: white;
+    color: black;
+    font-size: 50px;  
+}
+    .liste_video {
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        vertical-align: middle;
+        padding: bottom;
+
+    }
+
+    
+
+    /* .detail_video {
+        
+    }
+    .source_video {
+        
+    }
+
+    .titre_video {
+
+    }
+
+
+    .nbVue_video {
+        
+    }
+    .desc {
+        
+    }
+
+    .date_de_pub-video {
+        
+    }
+
+    .date_de_pub-video {
+        
+    }
+
+    .videos_detail_et_Comment_video {
+        
+    }
+
+    .la_video_en_detail {
+        
+    }
+
+    .Comments {
+        
+    }
+
+    .colonne_video_lecture_auto {
+
+    }
+
+
 
     /* html {
         font-size: 10px;
@@ -24,67 +106,37 @@ html{
         
     /*
     *************************************************************/
-    .entete{
-        background-color: violet;
-        display: block;
-        flex-direction: row;
-        
-        /* width: 100%; */
-        /* opacity: 1; */
-        /* padding-top: 50px; */
-        /* position: fixed; */
-        }
+    
 
-    .contener{  
-            display: inline-flex;
-            /* justify-content: center; */
-            position: relative;
-            vertical-align: middle;
-            flex-direction: row;
-            /* justify-content: space-between; */
-    }
-       
-    .titre_entete{  
-        display: inline-flex;
-        justify-content: center;
-        position: relative;
-        vertical-align: middle;
-        /* flex-direction: row; */
-        justify-content: space-between;
-        /* background-color: white;
-        color: black;
-        margin :0px;
-        width: auto;
-        font-size: 15px;
-        position: fixed; */
-        } 
+    
+    
         
 
-    .title__item_3 {
+    /* .title__item_3 {
         background-color: black;
     }
 
 
     *********************************************/
     
-    .videos{
+    /* .videos{
         size: 500%;
         flex-direction: row; 
         font-size: 3.5rem;
         background-color: white;
         opacity: 0.4;
          
-    }  
+    }   */
     
 /****************************************/
 
-    .liste_video {
+    /* .liste_video {
     display: inline-flex;
     justify-content: center;
     position: relative;
     vertical-align: middle;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */ */
     /* font-size: 1.2em;
     font-style: bold;
     padding-top:  50px;
@@ -151,3 +203,10 @@ height: 300px;
         height: 100%;
         
     } */
+
+
+
+ 
+
+
+    
