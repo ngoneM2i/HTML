@@ -27,13 +27,13 @@ html{
 
     .titlebar {
         background-color: rebeccapurple;
-        display: block;
+        display: inline-flex;
         flex-direction: row;
         width: 100%; 
-        opacity: 0.5; 
-        padding-top: 50px; 
-        position: fixed;      
-    }
+        height: 10%;
+        opacity: 0.9; 
+        padding-top: 5px; 
+        }
 
 
 .genre {
@@ -44,17 +44,29 @@ html{
     .liste_video {
         display: inline-flex;
         justify-content: center;
-        position: relative;
+        /* position: relative; */
         vertical-align: middle;
-        padding: bottom;
+        padding-bottom: 70px;
 
     }
-
+    .colonne_video_lecture_auto {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        padding-bottom: 70px;
+    }
     
 
-    /* .detail_video {
+    .detail_video {
+        padding-bottom: 70px;
         
     }
+
+    .videos_detail_et_Comment{
+        padding-bottom: 70px;
+    }
+    
     .source_video {
         
     }
@@ -79,10 +91,7 @@ html{
         
     }
 
-    .videos_detail_et_Comment_video {
-        
-    }
-
+    
     .la_video_en_detail {
         
     }
